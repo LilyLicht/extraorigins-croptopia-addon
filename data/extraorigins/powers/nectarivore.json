@@ -1,0 +1,33 @@
+{
+  "loading_priority": 1,
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+	"type": "origins:and",
+	"conditions": [
+	  {
+		"type": "origins:food"
+	  },
+	  {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "item": "honey_bottle"
+		},
+		"inverted": true
+	  },
+      {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "item": "croptopia:mead"
+		},
+		"inverted": true
+	  },
+	  {
+		"type": "origins:ingredient",
+		"ingredient": {
+		  "tag": "origins:ignore_diet"
+		},
+		"inverted": true
+	  }
+	]
+  }
+}
