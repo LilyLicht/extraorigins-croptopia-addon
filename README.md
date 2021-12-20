@@ -1,3 +1,3 @@
 # ExtraOrigins - Croptopia Addon
 
-A simple addon to add Croptopia support to ExtraOrigins!
+A simple Fabric mod to add Croptopia support to ExtraOrigins!
